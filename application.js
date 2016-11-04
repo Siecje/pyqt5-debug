@@ -5,8 +5,7 @@ function UsersManager() {
                               appWindow, "UsersManager");
 }
 
-var usersManager = new UsersManager();
-
 function loadUsers(){
+    var usersManager = new UsersManager();
     usersManager.LoadUsers();
 }

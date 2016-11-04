@@ -42,7 +42,5 @@ class UserTableManager(QtCore.QObject):
 app = QtGui.QGuiApplication(sys.argv)
 QtQml.qmlRegisterType(UsersManager, 'UsersManager', 1, 0, 'UsersManager')
 QtQml.qmlRegisterType(UserTableManager, 'UserTableManager', 1, 0, 'UserTableManager')
-print("so far so good")
 engine = QtQml.QQmlApplicationEngine("Main.qml")
-print("Does not print")
 app.exec_()

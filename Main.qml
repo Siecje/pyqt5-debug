@@ -1,13 +1,12 @@
 import QtQuick 2.3
 import QtQuick.Controls 1.4
-import QtQuick.Dialogs 1.2
 import QtQuick.Layouts 1.1
 
 import "application.js" as App
 
 ApplicationWindow {
-  //id: appWindow
-  //objectName: "appWindow"
+  id: appWindow
+  objectName: "appWindow"
   width: 800;
   height: 600;
   minimumWidth: 300;
@@ -55,7 +54,7 @@ ApplicationWindow {
       }
     }
   }
-  Component.onCompleted: {
-      console.log('here')
-  }
+  //Component.onCompleted: {
+      //console.log('here')
+  //}
 }
